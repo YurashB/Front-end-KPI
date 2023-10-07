@@ -1,0 +1,110 @@
+table, td {
+    border: 3px ridge grey;
+    border-collapse: collapse;
+}
+
+.my-table {
+    width: 100%;
+}
+
+.first-row {
+    background-color: #058f8f ;
+    color: #2A3C29;
+}
+
+.second-row {
+    background-color: #f5f505;
+    color: #1C5B1D;
+}
+
+.first-row td:hover {
+    background-color: #fa7070 ;
+    color: #d5c3d6;
+}
+
+.second-row td:hover {
+    background-color: #0a0afa;
+    color: #e3a4e2;
+}
+
+.first-col {
+    width: 25%;
+}
+
+.special-cell {
+    width: 15%;
+}
+
+.first-col {
+    width: 25%;
+}
+
+.third-col {
+    width: 45%;
+}
+
+.circles-container {
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+}
+
+.circles-container-position {
+    position: relative;
+}
+
+.circle-blue {
+    width: 91px;
+    height: 91px;
+    background-color: #ABE6FF99;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.circle-blue-position {
+    position: absolute;
+    top: 40%;
+    right: 40%;
+}
+
+.circle-green {
+    width: 90px;
+    height: 90px;
+    background-color: #38FF267A;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.circle-green-position {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.circle-red {
+    width: 91px;
+    height: 91px;
+    background-color: #FFD4DB99;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.circle-red-position {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+
+.circle-blue-transform {
+    transform: translateX(10%) translateY(-25%);
+}
+
+.circle-green-transform {
+    transform: translateX(90%) translateY(-125%);
+}
+
+.circle-red-transform {
+    transform: translateX(50%) translateY(10%);
+}
+
