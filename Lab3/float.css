@@ -8,7 +8,7 @@ body {
 #container {
     background: #99CC99;
     margin: 30px auto;
-    width: 1000px;
+    width: 100%;
     height: 750px;
 }
 
@@ -27,7 +27,8 @@ body {
     float: right;
     width: 25%;
     height: 63%;
-    overflow: hidden
+    overflow: hidden;
+    text-align-last: center;
 }
 
 #content {
