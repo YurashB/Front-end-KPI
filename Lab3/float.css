@@ -1,0 +1,50 @@
+body {
+    background: #f3f2f3;
+    color: #000000;
+    font-family: Trebuchet MS, Arial, Times New Roman, serif ;
+    font-size: 12px;
+}
+
+#container {
+    background: #99CC99;
+    margin: 30px auto;
+    width: 1000px;
+    height: 750px;
+}
+
+#header {
+    background: #66CCCC;
+    height: 20%;
+    width: 100%;
+}
+
+#navigation {
+    background: #FF9999;
+}
+
+#menu {
+    background: #99CC99;
+    float: right;
+    width: 25%;
+    height: 63%;
+    overflow: hidden
+}
+
+#content {
+    background: #d2d0d2;
+    float: left;
+    width: 75%;
+    height: 63%;
+}
+
+#clear {
+    clear: both;
+}
+
+#footer {
+    background: #0066FF;
+    height: 17%;
+    width: 100%;
+    padding: 1px;
+    overflow: hidden
+}
