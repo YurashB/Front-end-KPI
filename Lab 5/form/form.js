@@ -7,6 +7,10 @@ const email = document.getElementById('email');
 const faculty = document.getElementById('faculty');
 
 
+function changeColor(element) {
+    element.style.borderColor = randomColor();
+}
+
 form.addEventListener('submit', e => {
     e.preventDefault();
 
@@ -116,6 +120,13 @@ function printInfo(element) {
     for (let data in formData) {
          element.innerHTML += `<p><b>${data}: </b>${formData[data]}</p>`
     }
+}
+
+function randomColor() {
+    let x = Math.floor(Math.random() * 256);
+    let y = Math.floor(Math.random() * 256);
+    let z = Math.floor(Math.random() * 256);
+    return "rgb(" + x + "," + y + "," + z + ")";
 }
 
 

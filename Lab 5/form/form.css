@@ -37,12 +37,14 @@ body {
 
 #form-control {
     margin: 5px;
+    display: flex;
 }
 
+
 #form-control input,
-#form-control select,
-#form-control textarea {
-    border: 1px solid #777;
+#form-control select  {
+    border: 2px solid;
+    border-color: black;
     border-radius: 2px;
     font-family: inherit;
     padding: 10px;
@@ -53,6 +55,7 @@ body {
 #form-control select {
     width: 100%;
 }
+
 
 button {
     background-color: #05c46b;
