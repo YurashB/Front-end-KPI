@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, Lab5, KPI">
+    <meta name="description" content="This is Lab5">
+    <title>Юраш Б. В. ІА-11</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div id="container">
+    <div id="main">
+        <div id="content">
+            <h1>Форма для заповнення</h1>
+            <form id="form">
+                <div id="form-control">
+                    <input type="text" id="family-name" placeholder="Yurash B.V.">
+                    <div class="error"></div>
+                </div>
+                <div id="form-control">
+                    <input type="date" id="birthday">
+                    <div class="error"></div>
+                </div>
+                <div id="form-control">
+                    <input type="text" id="address" placeholder="м.Київ">
+                    <div class="error"></div>
+                </div>
+                <div id="form-control">
+                    <input type="email" id="email" placeholder="example@mail.com">
+                    <div class="error"></div>
+                </div>
+                <div id="form-control">
+                    <select name="faculty" id="faculty">
+                        <option value="">Faculty</option>
+                        <option>FICT</option>
+                        <option>FPM</option>
+                        <option>ACM</option>
+                        <option>STM</option>
+                        <option>FRA</option>
+                    </select>
+                    <div class="error"></div>
+                </div>
+                <div id="form-control">
+                    <button type="submit" value="submit">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div id="menu">
+            <div id="form-info">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="form.js"></script>
+</html>
