@@ -9,11 +9,10 @@ const GoodsCard = ({item}) => {
             <div className="card-body">
                 <h5 className="card-title">{item.title}</h5>
                 <p className="card-text">{item.description}</p>
-                <p className="card-text">{item.advantages}</p>
-                <p className="card-text">{item.disadvantages}</p>
             </div>
-            <div className="card-footer">
-                <small className="text-body-secondary">{item.price}</small>
+            <div className="card-footer d-flex justify-content-between">
+                <p className="text-body-secondary fs-4 m-0">{item.price}</p>
+                <a href={item.link} className="btn btn-primary stretched-link btn">Buy now</a>
             </div>
         </div>
     );
