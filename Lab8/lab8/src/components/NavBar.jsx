@@ -4,12 +4,12 @@ const NavBar = () => {
     return (
         <div className="container">
             <div className="row justify-content-between">
-                <nav className="navbar navbar-expand-md navbar-fixed-bottom">
+                <nav className="navbar navbar-expand-md">
                     <div className="container-fluid d-flex justify-content-around">
                         <a className="navbar-brand" href="#">
-                            <img src="https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2019/08/image21.png"
+                            <img src="https://cdn.worldvectorlogo.com/logos/powerail-1.svg"
                                  alt="logo"
-                                 width="150" height="40"/>
+                                 width="75" height="20"/>
                         </a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

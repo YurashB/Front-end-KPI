@@ -1,0 +1,244 @@
+.navbar {
+    background-color: transparent;
+}
+
+.cian {
+    color: #5cccc9;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.icon-text-card p {
+    color: rgb(128, 128, 128);
+}
+
+.intro {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.block {
+    background: #5cccc9;
+    bottom: 0;
+    max-width: 220px;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+}
+
+.subtitle {
+    color: #5cccc9;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.wrap-icon {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    background: #5cccc9;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.pricing {
+    padding: 30px;
+    color: #ffffff;
+}
+
+.pricing .price {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.color-1 {
+    background: #5cccc9;
+}
+
+.color-2 {
+    background: #6ebfb5;
+}
+
+.color-3 {
+    background: #ade498;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    border-radius: 0;
+}
+
+.btn:active, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn.btn-outline-primary {
+    background: transparent;
+    color: white;
+    border-color: #ffffff;
+}
+
+.btn.btn-outline-primary:hover {
+    color: #6cd1ce;
+    background: white;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.testimonial-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+
+.testimonial-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 3;
+    grid-column-end: 4;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    -ms-grid-row-span: 3;
+    grid-row-end: 4;
+    top: -50px;
+    right: -50px;
+    z-index: 2;
+    position: relative;
+}
+
+.testimonial-inner {
+    background: #5cccc9;
+    padding: 30px 30px 30px 100px;
+    -ms-grid-column: 4;
+    grid-column-start: 4;
+    -ms-grid-column-span: -5;
+    grid-column-end: -1;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-row-span: -4;
+    grid-row-end: -2;
+    color: white;
+}
+
+.name {
+    font-weight: 800
+}
+
+.name .position {
+    line-height: 1.2;
+    font-size: 14px;
+    display: block;
+}
+
+.person-image img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 70px;
+    flex: 0 0 70px;
+    margin-right: 20px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+blockquote {
+    font-size: 20px;
+}
+
+.untree_co-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 0 1fr 0 1fr 0 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    grid-gap: 0;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: -40px;
+    grid-template-areas:
+        '. img-1 img-3 img-3'
+        'img-2 img-2 img-3 img-3'
+        'img-2 img-2 img-5 img-4';
+}
+
+.img {
+    height: 13rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.img-1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: img-1;
+}
+
+.img-2 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: img-2;
+    min-height: 26rem;
+}
+
+.img-3 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 3;
+    grid-area: img-3;
+    min-height: 26rem;
+}
+
+.img-4 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 7;
+    grid-area: img-4;
+}
+
+.img-5 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 5;
+    grid-area: img-5;
+}
+
+
+
+
